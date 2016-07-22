@@ -1,7 +1,7 @@
 def call_serial():
     import serial
 
-    arduino = serial.Serial('tty1', 115200, timeout=.1)
+    arduino = serial.Serial('tty7', 115200, timeout=.1)
 
     #DEBUGGING
     while True:
