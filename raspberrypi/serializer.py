@@ -3,7 +3,7 @@ def call_serial():
 
     arduino = serial.Serial('tty7', 115200, timeout=.1)
 
-    #DEBUGGING
+    #DEBUGGING 
     while True:
         arduino.readline()
 
