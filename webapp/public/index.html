@@ -22,6 +22,9 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
+    <link rel="stylesheet" type="text/css"
+    href="https://js.api.here.com/v3/3.0/mapsjs-ui.css" />
+
      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -60,14 +63,10 @@
     <!-- Blue Container -->
 	<div id="section-blue">
 		<div class="container">
+			<div id="map">
+			</div>
 		</div>
 	</div>
-
-	<div id="section-red">
-		<div class="container">
-		</div>
-	</div>
-
 
 	<!-- Footer Section -->
 	<nav id="footer">
@@ -94,6 +93,17 @@
     <!-- All compiled plugins -->
     <script type="text/javascript" src="vendor/js/bootstrap.js"></script>
     <script type="text/javascript" src="vendor/js/modernizr.custom.js"></script>
+
+  	  <script type="text/javascript" charset="UTF-8"
+	    src="https://js.api.here.com/v3/3.0/mapsjs-core.js"></script>
+	  <script type="text/javascript" charset="UTF-8"
+	    src="https://js.api.here.com/v3/3.0/mapsjs-service.js"></script>
+	  <script type="text/javascript" charset="UTF-8"
+	    src="https://js.api.here.com/v3/3.0/mapsjs-ui.js"></script>
+	  <script type="text/javascript" charset="UTF-8"
+	    src="https://js.api.here.com/v3/3.0/mapsjs-mapevents.js"></script>
+	   <script type="text/javascript" charset="UTF-8"
+	    src="https://js.api.here.com/v3/3.0/mapsjs-places.js"></script>
 
     <!-- Javascript -->
     <script type="text/javascript" src="js/main.js"></script>
