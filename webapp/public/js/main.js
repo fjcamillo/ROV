@@ -2,6 +2,24 @@ function main() {
     (function () {
         'use strict';
 
+        $(document).ready(function(){
+        $('#bxslider').bxSlider({
+              auto: true,
+              autoHover: true,
+              adaptiveHeight: true,
+              speed: 500,
+              pause: 8000,
+              infiniteLoop: true,
+              preloadImages: 'visible',
+              touchEnabled: true,
+              swipeThreshold: 200,
+              controls: true,
+              onSliderLoad: function(){
+                $("#carousel").css("visibility", "visible");
+              }
+           });
+        });
+
         /* Show Menu on Book */
         $(window).bind('scroll', function () {
             var navHeight = $(window).height() - 600;
