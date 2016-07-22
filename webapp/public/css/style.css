@@ -266,3 +266,16 @@ nav#footer p {
         border-color: #fff;
         color: #000;
     }
+
+#map {
+width: 100%;
+height: 500px;
+/*border: 2px solid #f60000; /*red*/
+/*border: 2px solid #4169e1; /*blue*/
+border: 2px solid #efef00 ; /*yellow*/
+/*border: 2px solid #ffa500; /*orange*/
+background-color: #1a1a1a;
+margin-top: -620px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(204, 204, 204, .6);
+box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(204, 204, 204, .6);  
+}
