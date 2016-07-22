@@ -1,8 +1,8 @@
-from . import body_detection
+from camera_detection import camera_detect
 
 
 def main():
-    pass
+    camera_detect()
 
 if __name__ == '__main__':
     main()
