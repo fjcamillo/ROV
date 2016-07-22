@@ -1,3 +1,6 @@
+from . import body_detection
+
+
 def main():
     pass
 
