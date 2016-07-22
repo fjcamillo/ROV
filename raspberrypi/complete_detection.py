@@ -18,7 +18,7 @@ def complete_detect(facexmls, eyesxmls, bodyxmls, camera):
             roi_color = img[y:y+h, x:x+w]
             eyes = eye_cascade.detectMultiScale(roi_gray)
             for (ex, ey, ew, eh) in eyes:
-                cv2.rectangle(roi_color,(ex,ey),(ex+ew),(0,255,0),2)
+                cv2.rectangle(roi_color,(ex,ey),(ex+ew, ey+eh),(0,255,0),2)
         bodies = body_cascade.detectMultiScale(convert_image_to_gray)
         cv2.imshow('image', img)
         k = cv2.waitKey(30) & 0xFF
