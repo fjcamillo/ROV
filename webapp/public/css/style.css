@@ -1,0 +1,217 @@
+/* Navigation */
+body, html {
+    font-family: 'Lato', sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    color: #5a5a5a;
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background: rgba(39,174,160,0.4);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(214,214,214,0.8); 
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+    h1 strong {
+        font-weight: 900;
+    }
+
+h2 {
+    text-transform: uppercase;
+    line-height: 30px;
+    margin: 0;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    text-align:justify;
+}
+
+    p.intro {
+        font-size: 16px;
+        margin: 12px 0 0;
+        line-height: 24px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    p.center {
+        text-align:center;
+    }
+
+a {
+    color: #0077CC;
+}
+
+    a:hover,
+    a:focus {
+        text-decoration: none;
+        color: #0077CC;
+    }
+
+
+.navbar {
+    min-height: 50px;
+    padding: 20px;
+}
+
+.navbar-brand img {
+    margin-top: -30px;
+    transition: all 0.5s ease-in; 
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in; 
+    -o-transition: all 0.5s ease-in; 
+}
+
+.navbar-fixed-top {
+     z-index: 900;
+}
+
+#section-nav {
+    padding: 30px;
+    transition: all 0.8s;
+}
+
+    #section-nav.navbar-default {
+        /*background-color: #fff;
+        border-color: #00ACA2;
+        border-bottom-width: 3px;*/
+
+        background: rgb(255,255,255);
+        background: rgba(255,255,255,0.9);
+        /*background: #fff;*/
+        /*opacity: 0.9;*/
+        border-color: transparent;
+        border-bottom-width: 3px;
+    }
+
+    #section-nav a.navbar-brand {
+        text-transform: uppercase;
+        font-size: 22px;
+        color: rgba(0,0,0,0.8);
+        font-weight: 900;
+    }
+
+    #section-nav.navbar-default .navbar-nav > li > a {
+        text-transform: uppercase;
+        /*color: #fff;*/
+        color: #666; 
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 1px;
+    }
+
+        ul.shift li a:after {
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          margin: auto;
+          width: 100%;
+          height: 1px;
+          content: '.';
+          color: transparent;
+          background: #e3e3e3;
+          visibility: none;
+          opacity: 0;
+          z-index: -1;
+          transition: all 0.5s;
+        }
+
+        ul.shift li a:hover:after {
+          opacity: 0.3;
+          visibility: visible;
+          height: 100%;
+          transition: all 0.5s;
+        }
+
+.on {
+    background-color: #fff !important;
+    border-color: #00ACA2 !important;
+    padding: 0px !important;
+    box-shadow: none;
+    opacity: 1;
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    o-transition: all 0.5s ease-in; 
+}
+    
+    .on .navbar-brand img {
+        height: 50px;
+        width: 109px;
+        margin-top: -15px;
+        transition: all 0.5s ease; 
+        -webkit-transition: all 0.5s ease-in;
+        -moz-transition: all 0.5s ease-in;
+        -o-transition: all 0.5s ease-in;
+    }
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #27aea0 !important;
+    background-color: transparent;
+    font-weight: 700;
+}
+
+.navbar-toggle {
+    border-radius: 0;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #0077CC;
+    border-color: #0077CC;
+}
+
+    .navbar-default .navbar-toggle:hover > .icon-bar {
+        background-color: #FFF;
+    }
+
+
+.box {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  margin-bottom: 200px;
+  margin-top: 200px;
+  border: 1px solid black;
+}
