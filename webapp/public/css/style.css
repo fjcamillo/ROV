@@ -5,17 +5,17 @@ body, html {
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
     color: #5a5a5a;
-    background-color: #f6f6f6;
+    background-color: #1a1a1a;
 }
 
 ::-webkit-scrollbar {
-    width: 9px;
-    height: 9px;
+    width: 3px;
+    height: 3px;
 }
  
 /* Track */
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-box-shadow: inset 0 0 6px rgba(254,186,0,0.3); 
     -webkit-border-radius: 0px;
     border-radius: 0px;
 }
@@ -24,8 +24,8 @@ body, html {
 ::-webkit-scrollbar-thumb {
     -webkit-border-radius: 0px;
     border-radius: 0px;
-    background: rgba(204,204,204,0.4);
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    background: rgba(0,0,0,0.9);
+    -webkit-box-shadow: inset 0 0 6px rgba(65,105,225,0.5); 
 }
 ::-webkit-scrollbar-thumb:window-inactive {
     background: rgba(214,214,214,0.8); 
@@ -106,7 +106,7 @@ a {
 }
 
 #section-nav {
-    padding: 30px;
+    padding: 20px;
     transition: all 0.8s;
 }
 
@@ -115,10 +115,10 @@ a {
         border-color: #00ACA2;
         border-bottom-width: 3px;*/
 
-        background: rgb(246,246,246);
-        background: rgb(246,246,246, 0.9);
-        /*background: #fff;*/
-        /*opacity: 0.9;*/
+        /*background: rgb(246,0,0); /*red*/
+        /*background: rgb(65,105,225); /*blue*/
+        background: rgb(239,239,0); /*yellow
+        /*background: rgb(255,165,0); /*orange*/
         border-color: transparent;
         border-bottom-width: 0px;
     }
@@ -134,8 +134,8 @@ a {
     #section-nav.navbar-default .navbar-nav > li > a {
         text-transform: uppercase;
         /*color: #fff;*/
-        color: #666; 
-        font-size: 18px;
+        color: #000; 
+        font-size: 16px;
         font-family: 'Open Sans', sans-serif;
         font-weight: 600;
         letter-spacing: 1px;
@@ -153,7 +153,7 @@ a {
           height: 1px;
           content: '.';
           color: transparent;
-          background: #e3e3e3;
+          background: #fff;
           visibility: none;
           opacity: 0;
           z-index: -1;
@@ -161,15 +161,18 @@ a {
         }
 
         ul.shift li a:hover:after {
-          opacity: 0.3;
+          opacity: 0.8;
           visibility: visible;
           height: 100%;
           transition: all 0.5s;
         }
 
 .on {
-    background-color: #fff !important;
-    border-color: transparent; !important;
+    /*background-color: #f60000 !important; /*red*/
+    /*background-color: #4169e1 !important; /*blue*/
+    background-color: #efef00 !important; /*yellow
+    /*background-color: #ffa500 !important; /*orange*/
+    border-color: none !important;
     padding: 0px !important;
     box-shadow: none;
     opacity: 1;
@@ -213,7 +216,53 @@ a {
 
 /* Section blue container */
 #section-blue {
-  background-color: #073763;
-  padding: 500px 80px;
-  box-shadow: 5px 0px 20px -5px #333;
+  background-color: #feba00;
+  padding-top: 750px;
+  background: url(../img/Destruction1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
+
+/* Footer */
+nav#footer {
+    /*background: rgb(246,0,0); /*red*/
+    /*background: rgba(65,105,225,0.9); /*blue*/
+    background: rgb(239,239,0); /*yellow
+    /*background: rgb(255,165,0); /*orange*/
+    color: #000;
+    padding: 0px 0 0 0;
+}
+
+    nav#footer .fnav {
+        vertical-align: middle;
+    }
+
+ul.footer-social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav#footer p {
+    font-size: 12px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#footer i.fa {
+    height: 25px;
+    width: 25px;
+    border: 2px solid #000;
+    font-size: 15px;
+    padding: 4px 4px;
+    border-radius: 50%;
+    color: #000;
+    transition: all 0.5s;
+    margin-top:10px;
+}
+
+    #footer i.fa:hover {
+        background: #fff;
+        border-color: #fff;
+        color: #000;
+    }
