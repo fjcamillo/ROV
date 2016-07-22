@@ -19,3 +19,6 @@ def body_detect(camera, body_haar):
 
     cv2.destroyAllWindows()
     cap.release()
+
+if __name__ == '__main__':
+    body_detect()
