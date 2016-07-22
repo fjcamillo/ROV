@@ -5,7 +5,8 @@ def call_serial():
 
     #DEBUGGING 
     while True:
-        arduino.readline()
+        x = arduino.readline()
+        print x
 
 if __name__ == '__main__':
     call_serial()
