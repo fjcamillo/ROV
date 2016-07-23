@@ -1,0 +1,281 @@
+/* Fix user-agent */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+html, input {
+  font-family:
+    "HelveticaNeue-Light",
+    "Helvetica Neue Light",
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    "Lucida Grande",
+    sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  word-wrap: break-word;
+}
+
+.navbar {
+    min-height: 50px;
+    padding: 20px;
+}
+
+.navbar-brand img {
+    margin-top: -30px;
+    transition: all 0.5s ease-in; 
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in; 
+    -o-transition: all 0.5s ease-in; 
+}
+
+.navbar-fixed-top {
+     z-index: 900;
+}
+
+#section-nav {
+    padding: 20px;
+    transition: all 0.8s;
+}
+
+    #section-nav.navbar-default {
+        /*background-color: #fff;
+        border-color: #00ACA2;
+        border-bottom-width: 3px;*/
+        /*background: rgb(246,0,0); /*red*/
+        /*background: rgb(65,105,225); /*blue*/
+        background: rgb(239,239,0); /*yellow
+        /*background: rgb(255,165,0); /*orange*/
+        border-color: transparent;
+        border-bottom-width: 2px;
+    }
+
+    #section-nav a.navbar-brand {
+        text-transform: uppercase;
+        font-size: 22px;
+        color: rgba(0,0,0,0.8);
+        font-weight: 900;
+        font-style: bold;
+    }
+
+    #section-nav.navbar-default .navbar-nav > li > a {
+        text-transform: uppercase;
+        /*color: #fff;*/
+        color: #000; 
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+
+        ul.shift li a:after {
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          margin: auto;
+          width: 100%;
+          height: 1px;
+          content: '.';
+          color: transparent;
+          background: #fff;
+          visibility: none;
+          opacity: 0;
+          z-index: -1;
+          transition: all 0.5s;
+        }
+
+        ul.shift li a:hover:after {
+          opacity:1;
+          visibility: visible;
+          height: 100%;
+          transition: all 0.5s;
+        }
+
+.on {
+    /*background-color: #f60000 !important; /*red*/
+    /*background-color: #4169e1 !important; /*blue*/
+    background-color: #efef00 !important; /*yellow
+    /*background-color: #ffa500 !important; /*orange*/
+    border-color: #000!important;
+    padding: 0px !important;
+    box-shadow: none;
+    opacity: 1;
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    o-transition: all 0.5s ease-in; 
+}
+    
+    .on .navbar-brand img {
+        height: 70px;
+        width: 124px;
+        margin-top: -20px;
+        transition: all 0.5s ease; 
+        -webkit-transition: all 0.5s ease-in;
+        -moz-transition: all 0.5s ease-in;
+        -o-transition: all 0.5s ease-in;
+    }
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #27aea0 !important;
+    background-color: transparent;
+    font-weight: 700;
+}
+
+.navbar-toggle {
+    border-radius: 0;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #0077CC;
+    border-color: #0077CC;
+}
+
+    .navbar-default .navbar-toggle:hover > .icon-bar {
+        background-color: #FFF;
+    }
+
+
+/* Pages */
+
+.pages {
+  height: 100%;
+  top:40px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background:url("../img/Destruction1.jpg");
+}
+
+.page {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+/* Login Page */
+
+.login.page {
+  background-color: #000;
+}
+
+.login.page .form {
+  height: 100px;
+  margin-top: -100px;
+  position: absolute;
+
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+
+.login.page .form .usernameInput {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  outline: none;
+  padding-bottom: 15px;
+  text-align: center;
+  width: 400px;
+}
+
+.login.page .title {
+  font-size: 200%;
+}
+
+.login.page .usernameInput {
+  font-size: 200%;
+  letter-spacing: 3px;
+}
+
+.login.page .title, .login.page .usernameInput {
+  color: #fff;
+  font-weight: 100;
+}
+
+/* Chat page */
+
+.chat.page {
+  background-color: white;
+  left:225px;
+  height: 84%;
+  width: 70%;
+  top:100px;
+}
+
+/* Font */
+
+.messages {
+  font-size: 150%;
+}
+
+.inputMessage {
+  font-size: 100%;
+}
+
+.log {
+  color: gray;
+  font-size: 70%;
+  margin: 5px;
+  text-align: center;
+}
+
+/* Messages */
+
+.chatArea {
+  height: 100%;
+  padding-bottom: 60px;
+}
+
+.messages {
+  height: 100%;
+  margin: 0;
+  overflow-y: scroll;
+  padding: 10px 20px 10px 20px;
+}
+
+.message.typing .messageBody {
+  color: gray;
+}
+
+.username {
+  font-weight: 700;
+  overflow: hidden;
+  padding-right: 15px;
+  text-align: right;
+}
+
+/* Input */
+
+.inputMessage {
+  border: 10px solid #000;
+  bottom: 0;
+  height: 60px;
+  left: 0;
+  outline: none;
+  padding-left: 10px;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
