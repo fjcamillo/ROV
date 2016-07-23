@@ -530,10 +530,22 @@ ul.bxslider {
     -o-transition: all 0.6s ease-in;
 }
 
+.tab-content p {
+    margin-top: 10px;
+}
+
+.nav > li > a {
+  color: #efef00;
+}
+
+.nav > li > a:hover {
+  color: #000;
+}
+
 /* Facts: Fire */
 #ft-fire {
   background-color: rgba(0,0,0,0.8);
-  padding:100px;
+  padding:50px;
   margin-bottom: 20px;
   box-shadow:0 0 10px #333;
 }
@@ -541,28 +553,28 @@ ul.bxslider {
 /* Facts: Earthquake */
 #ft-eq {
   background-color: rgba(0,0,0,0.8);
-  padding:100px;
+  padding:50px;
   margin-bottom: 20px;
   box-shadow:0 0 10px #333;
 }
 
 #ft-tsunami {
   background-color: rgba(0,0,0,0.8);
-  padding:100px;
+  padding:50px;
   margin-bottom: 20px;
   box-shadow:0 0 10px #333;
 }
 
 #ft-flood {
   background-color: rgba(0,0,0,0.8);
-  padding:100px;
+  padding:50px;
   margin-bottom: 20px;
   box-shadow:0 0 10px #333;
 }
 
-#ft-thunder {
+#ft-ve {
   background-color: rgba(0,0,0,0.8);
-  padding:100px;
+  padding:50px;
   margin-bottom: 20px;
   box-shadow:0 0 10px #333;
 }
