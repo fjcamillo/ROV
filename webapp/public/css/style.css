@@ -9,13 +9,13 @@ body, html {
 }
 
 ::-webkit-scrollbar {
-    width: 3px;
-    height: 3px;
+    width: 7px;
+    height: 7px;
 }
  
 /* Track */
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(254,186,0,0.3); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1.0);
     -webkit-border-radius: 0px;
     border-radius: 0px;
 }
@@ -24,8 +24,8 @@ body, html {
 ::-webkit-scrollbar-thumb {
     -webkit-border-radius: 0px;
     border-radius: 0px;
-    background: rgba(0,0,0,0.9);
-    -webkit-box-shadow: inset 0 0 6px rgba(65,105,225,0.5); 
+    background: rgba(239,239,0,1.0); 
+    -webkit-box-shadow: inset 0 0 6px rgba(239,239,0,0); 
 }
 ::-webkit-scrollbar-thumb:window-inactive {
     background: rgba(214,214,214,0.8); 
@@ -56,6 +56,7 @@ h2 {
 
   h2.black {
     color: #000;
+    display: inline;
   }
 
 h3 {
@@ -299,9 +300,18 @@ ul, ol {
 
 /* Section blue container */
 #section-blue {
-  background-color: #feba00;
+  background-color: #1a1a1a;
   padding-top: 750px;
   background: url(../img/Destruction1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#section-gray {
+  background-color: #1a1a1a;
+  padding-top: 750px;
+  /*background: url(../img/Destruction1.jpg);*/
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -382,7 +392,7 @@ nav#footer p {
 
 .sw-col {
   background: rgba(239,239,0,0.9);
-  padding: 20px 10px;
+  padding: 55px 10px;
   border: 5px solid black;
 }
 
@@ -433,7 +443,7 @@ nav#footer p {
 /* BxSlider */
 #carousel {
     visibility: hidden;
-    margin-top: -600px;
+    margin-top: -670px;
 }
 
 ul.bxslider {
@@ -452,17 +462,17 @@ ul.bxslider {
 }
 
 .bx-wrapper .bx-pager {
-    color: #d6d6d6;
-    bottom: -50px;
+    color: #444;
+    bottom: -15px;
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a {
     background: #aaa;
-    width: 40px;
-    height: 6px;
-    -moz-border-radius: 0px;
-    -webkit-border-radius: 0px;
-    border-radius: 0px;
+    width: 10px;
+    height: 10px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
 
     -webkit-transition: background 0.3s ease-in;
     -moz-transition: background 0.3s ease-in;
@@ -480,7 +490,7 @@ ul.bxslider {
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a.active {
-    background: #0077C0;
+    background: #efef00;
     transition: background 0.5s ease-in;
 }
 
@@ -488,7 +498,7 @@ ul.bxslider {
     left: 10px;
     width: 80px;
     height: 80px;
-    opacity: 0.4;
+    opacity: 0.9;
     background: url(images/prev3.png) no-repeat;
 
     transition: all 0.3s ease-in;
@@ -501,7 +511,7 @@ ul.bxslider {
     right: 25px;
     width: 80px;
     height: 80px;
-    opacity: 0.4;
+    opacity: 0.9;
     background: url(images/next3.png) no-repeat;
 
     transition: all 0.3s ease-in;
@@ -578,4 +588,42 @@ ul.bxslider {
   padding:50px;
   margin-bottom: 20px;
   box-shadow:0 0 10px #333;
+}
+
+.img-dis {
+  display: inline;
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
+}
+
+.img-news {
+  display: inline;
+  width: 70px;
+  height: 70px;
+}
+
+.img-responsive {
+  margin: auto;
+}
+
+/******************* HOTLINES PAGE **************************/
+.backdrop {
+  background-color:#1a1a1a;
+  margin-top: -630px;
+  padding-top: 20px;
+}
+
+.section-back {
+  background-color:transparent;
+  padding:0;
+  border-right: 50px solid #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.section-back2 {
+  background-color:transparent;
+  padding:0;
+  border-left: 50px solid #1a1a1a;
+  margin-bottom: 20px;
 }

@@ -182,41 +182,41 @@ function main() {
 		    '<div ><a href=\'http://www.liverpoolfc.tv\' >Liverpool</a>' +
 		    '</div><div >Anfield<br>Capacity: 45,362</div>');
 
-		  addMarkerToGroup(group, regionSeven,
-		    '<div ><a href=\'http://www.liverpoolfc.tv\' >Liverpool</a>' +
-		    '</div><div >Anfield<br>Capacity: 45,362</div>');
+		  // addMarkerToGroup(group, regionSeven,
+		  //   '<div ><a href=\'http://www.liverpoolfc.tv\' >Liverpool</a>' +
+		  //   '</div><div >Anfield<br>Capacity: 45,362</div>');
 
-		  addMarkerToGroup(group, regionEight,
-		    '<div ><a href=\'http://www.liverpoolfc.tv\' >Liverpool</a>' +
-		    '</div><div >Anfield<br>Capacity: 45,362</div>');
+		  // addMarkerToGroup(group, regionEight,
+		  //   '<div ><a href=\'http://www.liverpoolfc.tv\' >Liverpool</a>' +
+		  //   '</div><div >Anfield<br>Capacity: 45,362</div>');
 
-		  addMarkerToGroup(group, regionNine,
-		    '<div ><a href=\'http://www.liverpoolfc.tv\' >Liverpool</a>' +
-		    '</div><div >Anfield<br>Capacity: 45,362</div>');
+		  // addMarkerToGroup(group, regionNine,
+		  //   '<div ><a href=\'http://www.liverpoolfc.tv\' >Liverpool</a>' +
+		  //   '</div><div >Anfield<br>Capacity: 45,362</div>');
 
-		  addMarkerToGroup(group, regionTen,
-		    '<div ><a href=\'http://www.liverpoolfc.tv\' >Liverpool</a>' +
-		    '</div><div >Anfield<br>Capacity: 45,362</div>');
+		  // addMarkerToGroup(group, regionTen,
+		  //   '<div ><a href=\'http://www.liverpoolfc.tv\' >Liverpool</a>' +
+		  //   '</div><div >Anfield<br>Capacity: 45,362</div>');
 
-		  addMarkerToGroup(group, regionEleven,
-		    '<div ><a href=\'http://www.liverpoolfc.tv\' >Liverpool</a>' +
-		    '</div><div >Anfield<br>Capacity: 45,362</div>');
+		  // addMarkerToGroup(group, regionEleven,
+		  //   '<div ><a href=\'http://www.liverpoolfc.tv\' >Liverpool</a>' +
+		  //   '</div><div >Anfield<br>Capacity: 45,362</div>');
 
-		  addMarkerToGroup(group, regionTwelve,
-		    '<div ><a href=\'http://www.liverpoolfc.tv\' >Liverpool</a>' +
-		    '</div><div >Anfield<br>Capacity: 45,362</div>');
+		  // addMarkerToGroup(group, regionTwelve,
+		  //   '<div ><a href=\'http://www.liverpoolfc.tv\' >Liverpool</a>' +
+		  //   '</div><div >Anfield<br>Capacity: 45,362</div>');
 
-		  addMarkerToGroup(group, regionThirteen,
-		    '<div ><a href=\'http://www.liverpoolfc.tv\' >Liverpool</a>' +
-		    '</div><div >Anfield<br>Capacity: 45,362</div>');
+		  // addMarkerToGroup(group, regionThirteen,
+		  //   '<div ><a href=\'http://www.liverpoolfc.tv\' >Liverpool</a>' +
+		  //   '</div><div >Anfield<br>Capacity: 45,362</div>');
 
-		  addMarkerToGroup(group, armm,
-		    '<div ><a href=\'http://www.liverpoolfc.tv\' >Liverpool</a>' +
-		    '</div><div >Anfield<br>Capacity: 45,362</div>');
+		  // addMarkerToGroup(group, armm,
+		  //   '<div ><a href=\'http://www.liverpoolfc.tv\' >Liverpool</a>' +
+		  //   '</div><div >Anfield<br>Capacity: 45,362</div>');
 
-		  addMarkerToGroup(group, nir,
-		    '<div ><a href=\'http://www.liverpoolfc.tv\' >Liverpool</a>' +
-		    '</div><div >Anfield<br>Capacity: 45,362</div>');
+		  // addMarkerToGroup(group, nir,
+		  //   '<div ><a href=\'http://www.liverpoolfc.tv\' >Liverpool</a>' +
+		  //   '</div><div >Anfield<br>Capacity: 45,362</div>');
 
 		}
 
